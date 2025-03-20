@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
       
       - name: Unzip File
-        run: unzip -o your-file.zip -d extracted-folder
+        run: unzip -o Coursera-Django-Menu-Creation-main.zip -d extracted-folder
       
       - name: Commit Extracted Files
         run: |
