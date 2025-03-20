@@ -12,6 +12,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
       
+      - name: List Repository Files
+        run: ls -R
+
       - name: Unzip File
         run: unzip -o Coursera-Django-Menu-Creation-main.zip -d extracted-folder
       
